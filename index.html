@@ -805,7 +805,7 @@
 
         // Send message to backend API
         async function sendToBackend(message) {
-            const response = await fetch('/api/chat', {
+            const response = await fetch('https://friday-ai.onrender.com/api/chat', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
